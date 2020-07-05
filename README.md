@@ -1,10 +1,15 @@
-### 转自[youthriverside](https://github.com/youthriverside/OnlineChat)
-
 修复了PHP代码的问题
 
-`注: 第一次打开时会创建一个msg.txt 属于正常现象, 刷新网页后可以正常访问`
+`注: 第一次发消息时会创建一个msg.txt 属于正常现象, 刷新网页后可以正常访问`
 
 由index.php _a.php _b.php组成,msg.txt存放记录
 
 - [ ] > ***~~其实非常简单~~***
 
+可以自行改标题
+
+日期显示年月日
+
+网站自动刷新同步消息
+
+剩下的你们自己研究
