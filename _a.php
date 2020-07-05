@@ -18,7 +18,7 @@ fclose($handle);
 unlink("msg.txt"); 
 $fp = fopen("msg.txt","a+"); 
 $time = date("h:i"); 
-fwrite($fp,"<font color=\"blue\">".$person."</font> in <font color=\"red\">".$time."</font>  说  <b>".$msg."</b><br>"."\n"); 
+fwrite($fp,"<font color=\"blue\">".$person."</font> 在 <font color=\"red\">".$time."</font>  说  <b>".$msg."</b><br>"."\n"); 
 for ($i =0;$i<$tot;++$i){ 
 if ($i>50) break; 
 fwrite($fp,$oldmsg[$i]); 
