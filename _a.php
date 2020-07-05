@@ -17,7 +17,7 @@ $oldmsg[] = $content;
 fclose($handle); 
 unlink("msg.txt"); 
 $fp = fopen("msg.txt","a+"); 
-$time = date("h:i"); 
+$time = date("Y-m-d H:i:s");
 fwrite($fp,"<font color=\"blue\">".$person."</font> 在 <font color=\"red\">".$time."</font>  说  <b>".$msg."</b><br>"."\n"); 
 for ($i =0;$i<$tot;++$i){ 
 if ($i>50) break; 
@@ -50,7 +50,7 @@ fwrite($fp,$oldmsg[$i]);
 <br> 
 <font size="-1"></font> 
 <textarea type="textarea" name="message" rows="9" cols="150" size = 100></textarea> 
-<input type="submit" value="发言"> 
+<input type="submit" value="发送"> 
 </td> 
 </form> 
 </tr> 
