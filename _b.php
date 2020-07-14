@@ -1,8 +1,5 @@
 <html> 
-<head> 
-<title> 
-钉钉
-</title> 
+<head>
 </head> 
 <META HTTP-EQUIV=Refresh CONTENT="1; URL=_b.php"> 
 <body bgcolor="#FFFFFF"> 
