@@ -4,8 +4,8 @@
 钉钉
 </title> 
 </head> 
-<META HTTP-EQUIV=Refresh CONTENT="5; URL=_b.php"> 
-<body bgcolor="#EFEFEF"> 
+<META HTTP-EQUIV=Refresh CONTENT="1; URL=_b.php"> 
+<body bgcolor="#FFFFFF"> 
 <?php 
 $handle=fopen("msg.txt","r"); 
 //$oldmsg = array(); 

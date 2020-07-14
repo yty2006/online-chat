@@ -1,4 +1,4 @@
-<html> 
+<html>
 <title> 
 钉钉
 </title> 
@@ -50,7 +50,7 @@ fwrite($fp,$oldmsg[$i]);
 <br> 
 <font size="-1"></font> 
 <textarea type="textarea" name="message" rows="9" cols="150" size = 100></textarea> 
-<input type="submit" value="发送"> 
+<input type="submit" value="发送">
 </td> 
 </form> 
 </tr> 
