@@ -1,7 +1,4 @@
 <html>
-<title> 
-钉钉
-</title> 
 <body TOPMARGIN=0 LEFTMARGIN=0 MARGINWIDTH=0 MARGINHEIGHT=0 > 
 <?php 
 $person = @$_POST[person]; 
